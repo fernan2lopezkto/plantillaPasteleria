@@ -1,25 +1,35 @@
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 
-import { Collapse } from '@mui/material';
-import Alert from '@mui/material/Alert';
-//import Stack from '@mui/material/Stack';
-import { useState } from 'react';
+import AlertPlantilla from "./components/AlertPlantilla"
+import ResponsiveAppBar from "./components/AppBar";
+import Home from "./components/Home";
+import Especialidad from "./components/Especialidad";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import PreguntasFrecuentes from "./components/PreguntasFrecuentes";
+import Servicios from "./components/Servicios";
+import About from "./components/About";
+
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./themes/theme"; // Importa el tema
 
 function App() {
-
-  const [open, setOpen] = useState(true)
-
-  return <>
-  <Collapse in={open}>
-
-      
-      <Alert severity="info"
-              onClose={()=> {setOpen(false)}}
-              >
-                This is an info Alert.</Alert>
-      
-
-  </Collapse>
-  </>;
+  return (
+    <ThemeProvider theme={theme}>
+      <ResponsiveAppBar />
+      <AlertPlantilla />
+      <Home />
+      <Especialidad />
+      <PreguntasFrecuentes />
+      <Servicios />
+      <About />
+      <Contact />
+      <Footer />
+    </ThemeProvider>
+  );
 }
 
 export default App;
