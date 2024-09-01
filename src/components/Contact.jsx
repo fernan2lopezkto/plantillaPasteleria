@@ -76,12 +76,6 @@ function Contact() {
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          {/* <Box
-            justifyContent="center"
-            sx={{ display: { xs: "flex" }, height: 200, mr: 1 }}
-          >
-            <img src={logoPrincipal} className="logo" alt="Vite logo" />
-          </Box> */}
           <Typography variant="h2" component="p" textAlign="center">
             {clientData.companyName}
           </Typography>
