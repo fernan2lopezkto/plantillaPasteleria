@@ -15,19 +15,19 @@ const texts = {
       name: "Torta de Vainilla con Frutas",
       description: "Nuestra Torta de Vainilla con Frutas es una combinación perfecta de suavidad y frescura. Con capas esponjosas de bizcocho de vainilla, rellenas de crema pastelera y una variedad de frutas frescas, esta torta es ideal para cualquier celebración o para disfrutar en cualquier momento del día.",
       precio: "$1500",
-      img: "/plantillaPasteleria/esp/TortadeVainillaConFrutas.png"
+      img: "/plantillaPasteleria/esp/tortaDeVainillaConFrutas2.png"
     },
     {
       name: "Brownie de Triple Chocolate",
       description: "El Brownie de Triple Chocolate es un sueño hecho realidad para los amantes del chocolate. Este delicioso postre combina tres tipos de chocolate (negro, con leche y blanco) en una textura húmeda y fundente, perfecta para los paladares más exigentes.",
       precio: "$850",
-      img: "/plantillaPasteleria/esp/BrowniedeTripleChocolate.png"
+      img: "/plantillaPasteleria/esp/browniedeTripleChocolate5.png"
     },
     {
       name: "Cupcakes Decorados",
       description: "Nuestros Cupcakes Decorados no solo son deliciosos, sino también una verdadera obra de arte. Disponibles en una variedad de sabores, desde vainilla y fresa hasta red velvet, están decorados a mano con fondant y buttercream para cualquier ocasión.",
       precio: "$600",
-      img: "/plantillaPasteleria/esp/CupcakesDecorados.png"
+      img: "/plantillaPasteleria/esp/CupcakesDecorados2.png"
     }
   ],
 
