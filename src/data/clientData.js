@@ -14,7 +14,7 @@ const clientData = {
   socialMedia: {
     facebook: "URL de Facebook",
     twitter: "URL de Twitter",
-    instagram: "https://www.instagram.com/sudulcegracia2024/"
+    instagram: "https://www.instagram.com/4code.uy"
   },
   logo: "URL del logo de la empresa",
   Horario: {
