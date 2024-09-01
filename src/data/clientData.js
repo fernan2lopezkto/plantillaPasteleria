@@ -3,7 +3,7 @@
 const clientData = {
   companyName: "Dulce Inspiracion",
   address: "Ruta 8 km26.500, Barros Blancos, Canelones",
-  phone: "092834535",
+  phone: "92834535",
   email: "4code.uy@gmail.com",
   website: "https://linktr.ee/4Code.uy",
   eslogan: "Dulce Inspiración. Donde cada sabor cuenta una historia.",

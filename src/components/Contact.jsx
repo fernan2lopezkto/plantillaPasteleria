@@ -6,9 +6,7 @@ import { WhatsApp } from "@mui/icons-material";
 
 import useTheme from "@mui/material/styles/useTheme";
 
-import logoPrincipal from "/logo.jpg";
-
-import clientData from "../data/clientData"
+import clientData from "../data/clientData";
 
 function Contact() {
   const theme = useTheme();
@@ -41,8 +39,7 @@ function Contact() {
           <Box sx={{ display: "flex", justifyContent: "center", gap: 2 }}>
             <IconButton
               onClick={(event) =>
-                (window.location.href =
-                  "https://www.instagram.com/sudulcegracia2024/")
+                (window.location.href = clientData.socialMedia.instagram)
               }
             >
               <Instagram
@@ -52,16 +49,14 @@ function Contact() {
             <IconButton
               onClick={(event) =>
                 (window.location.href =
-                  "https://wa.me/59896974438?text=Hola,%2C%20prueba%20web")
+                  "https://wa.me/598" +
+                  clientData.phone +
+                  "?text=Hola.%20%20%20vengo%20de%20la%20plantilla%20web%20de%20pastelería%2C%20me%20gustaría%20tener%20más%20información%20por%20favor.%20Gracias")
               }
             >
-              <WhatsApp
-                sx={{ display: { xs: "flex" }, fontSize: 50, mr: 1 }}
-              />
+              <WhatsApp sx={{ display: { xs: "flex" }, fontSize: 50, mr: 1 }} />
             </IconButton>
           </Box>
-          {/* <Box sx={{ display: "flex", justifyContent: "center", gap: 2 }}>
-          </Box> */}
           <Box sx={{ display: "flex", justifyContent: "center", gap: 2 }}>
             <Button
               variant="contained"
