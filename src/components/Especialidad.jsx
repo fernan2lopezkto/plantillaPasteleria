@@ -53,9 +53,9 @@ function Especialidad() {
                     <Typography gutterBottom variant="h5" component="div">
                       {esp.name}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    {/* <Typography variant="body2" color="text.secondary">
                       {esp.description}
-                    </Typography>
+                    </Typography> */}
                   </CardContent>
                 </CardActionArea>
               </Card>

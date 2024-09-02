@@ -3,10 +3,10 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#e58ebd',  // Rosado suave principal
+      main: '#f4b8c7',  // Rosado suave principal
     },
     secondary: {
-      main: '#f4b8c7',  // Rosado más claro
+      main: '#e58ebd',  // Rosado más claro
     },
     background: {
       default: '#fff5f7',  // Fondo blanco con un toque rosado
@@ -53,9 +53,9 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          backgroundColor: '#e58ebd',
+          backgroundColor: '#f4b8c7',
           '&:hover': {
-            backgroundColor: '#f4b8c7',
+            backgroundColor: '#e58ebd',
           },
         },
       },

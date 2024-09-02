@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 import { Container, Grid, Typography } from "@mui/material";
-//import AccordionTransition from "./AcordionFAQ";
+
 import texts from "../data/texts";
 
 import Accordion from "@mui/material/Accordion";
@@ -33,7 +33,6 @@ function PreguntasFrecuentes() {
               </AccordionSummary>
               <AccordionDetails>{preg.respuesta}</AccordionDetails>
             </Accordion>
-            {/* <AccordionTransition preg={preg} /> */}
           </Grid>
         ))}
       </Grid>
